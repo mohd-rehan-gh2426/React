@@ -23,8 +23,4 @@ Users can also copy the generated password directly to their clipboard.
 
 ---
 
-## 📸 Preview
-*(Add a screenshot of your app here, e.g., `public/image.png`)*
-
-```md
 ![App Screenshot](public/image.png)
