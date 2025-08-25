@@ -28,13 +28,14 @@ A simple **React** currency converter that allows users to convert an amount fro
 
 ## **Project Structure**
 
+```
 src
 ├── App.jsx # Main application component
 ├── components
 │ └── InputBox.jsx # Reusable input component for amount & currency
 └── hooks
 └── useCurrencyInfo.js # Custom hook to fetch currency data
-
+```
 ---
 
 ## Usage
