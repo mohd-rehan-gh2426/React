@@ -1,0 +1,5 @@
+By the end of Phase 1 you should have:
+
+✅ A Home screen
+✅ A Quiz screen layout
+✅ A Result screen layout

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="home" class="screen">
+      <h1>Home Screen</h1>
+      <button onclick="showQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz" class="screen hidden">
+      <h1>Quiz Screen</h1>
+      <button onclick="showResult()">Finish Quiz</button>
+    </div>
+
+    <div id="result" class="screen hidden">
+      <h1>Result Screen</h1>
+      <button onclick="showHome()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
