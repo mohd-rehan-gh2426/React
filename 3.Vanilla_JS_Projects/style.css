@@ -1,8 +1,19 @@
-.screen {
-  text-align: center;
-  padding: 40px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.hidden {
-  display: none;
+body {
+  background-color: #001e4d;
+}
+
+.app {
+  background: #fff;
+  width: 90%; /*takes the 90% of the available width of parent */
+  max-width: 600px; /*But not exceed to 600px*/
+  margin: 100px auto 0; /*100px from top, auto from right and left, 0 from bottom*/
+  border-radius: 10px;
+  padding: 30px;
 }

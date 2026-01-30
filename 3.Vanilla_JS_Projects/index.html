@@ -1,26 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizz App</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="home" class="screen">
-      <h1>Home Screen</h1>
-      <button onclick="showQuiz()">Start Quiz</button>
-    </div>
-
-    <div id="quiz" class="screen hidden">
-      <h1>Quiz Screen</h1>
-      <button onclick="showResult()">Finish Quiz</button>
-    </div>
-
-    <div id="result" class="screen hidden">
-      <h1>Result Screen</h1>
-      <button onclick="showHome()">Restart</button>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h2>Quizzzzy App</h2>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer_buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
